@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Apply styles to the container for the entire component */
+  .image-switcher-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden; /* Hide any overflow beyond the viewport */
+  }
+  
+  /* Apply styles to the image inside the container */
+  .image-switcher-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the container */
+  }
+  
+
+
+  .new-section {
+    height: 100vh;
+  }
+  
+  .new-section-body {
+    height: 500vh;
+    background: #000;
+  }
+  
+  .new-section-canvas {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100vw;
+    max-height: 100vh;
+  }
+  

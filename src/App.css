@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.stop-scrolling {
+  overflow: hidden;
+}
+
+.image-transition {
+  transition: opacity 1s ease-in-out;
+}
+
+
+.react-slideshow-container .default-nav:last-of-type{
+  display: none;
+}
+.react-slideshow-container .default-nav:first-of-type{
+  display: none;
+}
+
+
